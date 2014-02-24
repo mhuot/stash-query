@@ -21,3 +21,6 @@ Examples:
 ```
 stash-query -s 2013-12-01T00:00:00.000Z -e 2013-12-02T00:00:00.000Z -t my_tag -q 'message:hello_world' -w /tmp/my_query.txt
 ```
+
+Note: There is an issue with typhoeus-0.6.7, for this to work you need https://github.com/typhoeus/typhoeus/commit/00da90f
+I added time stamp to the 
